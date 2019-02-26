@@ -14,17 +14,21 @@ class Categories extends Component {
 		return (
 			<div class={style.categories} >
 				<div class="row">
-					<div class="col-md-3">
+					<div class="col-md-auto col-xs-12">
 						<a class="btn btn-primary" href="/videos/medical">Medical</a>
-						<a className="btn btn-primary" href="/videos/medical">Medical</a>
-						<a className="btn btn-primary" href="/videos/medical">Medical</a>
-						<a className="btn btn-primary" href="/videos/medical">Medical</a>
-						<a className="btn btn-primary" href="/videos/medical">Medical</a>
 					</div>
-						{/*<a class="btn btn-primary" href="/videos/medical">Wheelchair Tutorials</a>*/}
-						{/*<a class="btn btn-primary" href="/videos/medical">Life Hacks</a>*/}
-						{/*<a class="btn btn-primary" href="/videos/medical">Health & Food</a>*/}
-						{/*<a class="btn btn-primary" href="/videos/medical">Wheelchair Modifications</a>*/}
+					<div class="col-md-auto col-xs-12">
+						<a class="btn btn-primary" href="/videos/tutorials">Wheelchair Tutorials</a>
+					</div>
+					<div class="col-md-auto col-xs-12">
+						<a class="btn btn-primary" href="/videos/lifehacks">Life Hacks</a>
+					</div>
+					<div class="col-md-auto col-xs-12">
+						<a class="btn btn-primary" href="/videos/healthfood">Health &amp; Food</a>
+					</div>
+					<div class="col-md-auto col-xs-12">
+						<a class="btn btn-primary" href="/videos/mods">Wheelchair Modifications</a>
+					</div>
 				</div>
 			</div>
 		);

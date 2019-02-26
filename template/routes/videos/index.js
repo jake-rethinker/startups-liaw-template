@@ -31,14 +31,22 @@ class Videos extends Component {
 	render() {
 		return (
 			<div class={style.home}>
-				<Categories />
-				<div class={style.vidcontainer}>
-					<div class={style.container}>
-						<div class={style.videos}>
-								{this.renderVideos()}
+			<div class="row">
+				<div class="col-md-12">
+					<Categories />
+				</div>
+				<div class="col-md-12">
+					<div class={style.vidcontainer}>
+						<div class={style.container}>
+							<div class={style.videos}>
+									{this.renderVideos()}
+							</div>
 						</div>
 					</div>
 				</div>
+				
+			</div>
+			
 			</div>
 
 		);
