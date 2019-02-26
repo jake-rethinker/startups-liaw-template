@@ -1,0 +1,42 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	font-family: 'Helvetica Neue', arial, sans-serif;
+	font-weight: 400;
+	color: #ffffff;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+* {
+	box-sizing: border-box;
+}
+*:focus {
+	outline: none;
+}
+
+#app {
+	height: 100%;
+}
+.navbar-default {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+.a:-webkit-any-link {
+	text-decoration: none;
+}
+a:link {
+	text-decoration: inherit;
+	color: inherit;
+	cursor: pointer;
+}
+a:link {
+	text-decoration: inherit;
+	color: inherit;
+	cursor: pointer;
+}

@@ -1,0 +1,70 @@
+.consolecontainer {
+    float: left;
+    width: 100%;
+    margin-left: 5px;
+}
+
+.println {
+}
+.cmd {
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 28px;
+    font-family: 'Abel', sans-serif;
+
+}
+.cmd:focus {
+    border: none;
+}
+.cmd:active {
+    background-color: transparent;
+}
+.cmdund {
+    color: white;
+    font-size: 20px;
+    animation: blinker 1s infinite step-end;
+}
+@keyframes blinker {
+    from, to { opacity: 0; }
+
+    50% {opacity: 1;}
+}
+label {
+    font-family: 'Abel', sans-serif;
+    font-size: 30px;
+}
+.input {
+    margin-left: 5px;
+}
+.info {
+    width: 100%;
+    display: flex;
+    margin-bottom: 5px;
+	text-decoration: none;
+}
+.infoa:visited {
+	text-decoration: inherit;
+	color: inherit;
+	cursor: pointer;
+}
+.infoa:link {
+	text-decoration: inherit;
+	color: inherit;
+	cursor: pointer;
+}
+.terminal {
+	width: 100%;
+}
+@media screen and (max-width: 601px) {
+	.para {
+		font-size: 1rem;
+	}
+	label {
+		font-size: 1rem;
+	}
+	.cmd {
+		font-size: .9rem;
+	}
+}
+

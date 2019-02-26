@@ -1,0 +1,88 @@
+.home {
+    min-height: 100%;
+    width: 100%;
+	background: rgb(181,201,227);
+	background: linear-gradient(90deg, rgba(181,201,227,1) 0%, rgba(199,221,249,1) 50%, rgba(181,201,227,1) 100%);
+    max-width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+.card {
+	/* Add shadows to create the "card" effect */
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	background-color: #FCF7FF;
+	width: 275px;
+	height: 300px;
+	margin-top: 300px;
+	margin-left: 10px;
+	margin-right: 10px;
+	float: left;
+	resize: none;
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	border-radius: 25px;
+
+}
+.card::after {
+	clear: both;
+	display: table;
+}
+.card:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	transform: scale(1.1);
+}
+.menu {
+
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.cardimg {
+	max-width: 100%;
+	padding-top: 25px;
+	display: flex;
+	flex-direction: row;
+}
+.h1 {
+	color: black;
+	text-align: center;
+	font-size: .9rem;
+}
+.videos {
+}
+.cardtext {
+	font-size: 15px;
+}
+.header {
+	font-size: 3rem;
+	margin-bottom: 0;
+	margin-top: 30px;
+	color: #2d3f4d;
+	font-family: 'Francois One', sans-serif;
+}
+.para {
+	font-size: 1rem;
+	font-family: 'Francois One', sans-serif;
+	color: #2d3f4d;
+	margin-top: 0;
+
+}
+.vidcontainer {
+	margin-top: 350px;
+	width: 100%;
+	height: 100%;
+	margin-left: 10%;
+	margin-right: 10%;
+
+}
+.container {
+	overflow:hidden;
+	padding-bottom:56.25%;
+	position:relative;
+	height:0;
+}

@@ -1,0 +1,65 @@
+.contact {
+	margin-top: 75px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.input {
+	margin-top: 5px;
+}
+.label {
+	font-size: 2rem;
+	font-family: 'Francois One', sans-serif;
+	color: #2d3f4d;
+	margin-top: 0;
+	display: flex;
+	justify-content: center;
+	letter-spacing: 2px;
+
+}
+.cmd {
+	font-size: 2rem;
+	margin-left: 10px;
+	display: flex;
+	justify-content: flex-end;
+}
+.para {
+	font-size: 2rem;
+	font-family: 'Francois One', sans-serif;
+	color: #2d3f4d;
+	margin-top: 0;
+	text-align: center;
+	letter-spacing: 2px;
+
+}
+.btn {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 25px;
+}
+.btn:hover {
+	transform: scale(1.1);
+}
+.submit {
+	background-color: #7BABF3;
+	width: 250px;
+	border-radius: 15px;
+	height: 75px;
+	color: whitesmoke;
+	font-family: 'Francois One', sans-serif;
+	font-size: 2rem;
+	border-color: #2d3f4d;
+	text-shadow: 2px 2px black;
+}
+@media screen and (max-width: 601px) {
+	.cmd {
+		font-size: 1rem;
+	}
+	.para {
+		font-size: 1rem;
+		margin-top: 15px;
+
+	}
+}

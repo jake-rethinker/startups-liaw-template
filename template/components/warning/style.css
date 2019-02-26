@@ -1,0 +1,27 @@
+
+.popup {
+	position: absolute;
+	left: 5px;
+	top: 5px;
+	right: 5px;
+	bottom: 5px;
+	background-color: rgb(255,255,255,0.7);
+	flex-direction: column;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: black;
+	z-index: 1000;
+	box-shadow: 0 1px 15px #000;
+	text-align: center;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	overflow: auto;
+	cursor: pointer;
+	animation: zoom .4s forwards ease 1;
+}
+.warnings {
+	margin-left: 25%;
+	margin-right: 25%;
+}

@@ -1,0 +1,24 @@
+.home {
+    min-height: 100%;
+    width: 100%;
+	background: rgb(181,201,227);
+	background: linear-gradient(90deg, rgba(181,201,227,1) 0%, rgba(199,221,249,1) 50%, rgba(181,201,227,1) 100%);
+    max-width: 100%;
+	display: flex;
+    justify-content: center;
+	justify-items: center;
+}
+.menu {}
+.text {
+	margin-top: 250px;
+	text-align: center;
+	font-family: 'Francois One', sans-serif;
+	color: #2d3f4d;
+	font-size: 2.5rem;
+}
+.text2 {
+	text-align: center;
+	font-family: 'Francois One', sans-serif;
+	color: #2d3f4d;
+	font-size: 1rem;
+}

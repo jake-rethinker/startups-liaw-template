@@ -1,0 +1,17 @@
+.company {
+	font-family: 'Francois One', sans-serif;
+	font-size: 2rem;
+	background-color: #1B1725;
+	margin-top: 0;
+	margin-bottom: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+
+}
+.companytext {
+	font-family: 'Francois One', sans-serif;
+	color: #bbd0e9;
+	font-size: 1.5rem;
+}
+
